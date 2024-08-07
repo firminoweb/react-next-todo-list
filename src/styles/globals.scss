@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(255 255 255);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .navbar {
+    @apply flex justify-between items-center border-b border-gray-200;
+  }
+  .navbar-container {
+    @apply container mx-auto flex justify-between w-full max-w-full;
+  }
+  .navbar-link {
+    @apply text-white text-xl;
+  }
+  .searchbar-container {
+    @apply m-4 flex items-center;
+  }
+  .searchbar-input {
+    @apply border p-2 rounded-md;
+  }
+  .searchbar-button {
+    @apply ml-2 p-2 bg-blue-500 text-white rounded-md;
+  }
+  .menu-button {
+    @apply bg-[#32C0C6] text-white text-sm px-4 py-2 rounded-lg hover:bg-[#28a0a3] transition-colors duration-200;
+  }
+}
