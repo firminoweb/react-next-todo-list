@@ -1,6 +1,6 @@
-# Teste de Fullstack ToDo List
+# React + Next.js | ToDo List
 
-Trata-se de um projeto interno onde qualquer funcionário da empresa do Sr. Vibbraneo, que gostaria de ter uma lista de itens com sub-listas em um endereço público, que possa ser compartilhado por e-mail para um ou mais usuários e estes, quando receberem o link, possam colaborar. 
+Trata-se de um projeto teste onde qualquer funcionário de uma empresa, que gostaria de ter uma lista de itens com sub-listas em um endereço público, que possa ser compartilhado por e-mail para um ou mais usuários e estes, quando receberem o link, possam colaborar. 
 
 Ele utiliza **React**, **TypeScript**, **Next,js**, **TailwindCSS** e várias outras ferramentas modernas para desenvolvimento e testes como o **Husky** e o **Commitizen**.
 
@@ -19,7 +19,7 @@ Ele utiliza **React**, **TypeScript**, **Next,js**, **TailwindCSS** e várias ou
 
 ```
 cd existing_repo
-git remote add origin https://git.vibbra.com.br/joao-1606109007/joao-teste-fullstack-todo.git
+git remote add origin https://github.com/firminoweb/react-next-todo-list.git
 git branch -M main
 git push -uf origin main
 ```
